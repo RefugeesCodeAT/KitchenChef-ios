@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		AE3DE943052E9CC0D83F8272 /* Pods_Kitchen_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D9E3148C9E564AEA02D5C69 /* Pods_Kitchen_App.framework */; };
+		C7422E7620B59413000FE218 /* MainBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7422E7520B59413000FE218 /* MainBarController.swift */; };
+		C7422E7B20B5A79A000FE218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7422E7A20B5A79A000FE218 /* Assets.xcassets */; };
+		C7422E7D20B5A97D000FE218 /* MealsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7422E7C20B5A97D000FE218 /* MealsController.swift */; };
+		C7422E7F20B5BEDC000FE218 /* MealsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7422E7E20B5BEDC000FE218 /* MealsList.swift */; };
 		C7AF83392099E5F500576D04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AF83382099E5F500576D04 /* AppDelegate.swift */; };
 		C7AF833B2099E5F500576D04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AF833A2099E5F500576D04 /* ViewController.swift */; };
 		C7AF833E2099E5F500576D04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7AF833C2099E5F500576D04 /* Main.storyboard */; };
 		C7AF83412099E5F500576D04 /* Kitchen_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7AF833F2099E5F500576D04 /* Kitchen_App.xcdatamodeld */; };
-		C7AF83432099E5FA00576D04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7AF83422099E5FA00576D04 /* Assets.xcassets */; };
 		C7AF83462099E5FB00576D04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7AF83442099E5FB00576D04 /* LaunchScreen.storyboard */; };
 		C7E24BD220AA019A00ECB7B9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E24BD120AA019A00ECB7B9 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
@@ -21,12 +24,15 @@
 		05DFC7A10304835131D2C103 /* Pods-Kitchen-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kitchen-App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kitchen-App/Pods-Kitchen-App.debug.xcconfig"; sourceTree = "<group>"; };
 		7D9E3148C9E564AEA02D5C69 /* Pods_Kitchen_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kitchen_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F86BB38CB9FE277BC748217 /* Pods-Kitchen-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kitchen-App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kitchen-App/Pods-Kitchen-App.release.xcconfig"; sourceTree = "<group>"; };
+		C7422E7520B59413000FE218 /* MainBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBarController.swift; sourceTree = "<group>"; };
+		C7422E7A20B5A79A000FE218 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7422E7C20B5A97D000FE218 /* MealsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsController.swift; sourceTree = "<group>"; };
+		C7422E7E20B5BEDC000FE218 /* MealsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsList.swift; sourceTree = "<group>"; };
 		C7AF83352099E5F500576D04 /* Kitchen-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kitchen-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7AF83382099E5F500576D04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7AF833A2099E5F500576D04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C7AF833D2099E5F500576D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7AF83402099E5F500576D04 /* Kitchen_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kitchen_App.xcdatamodel; sourceTree = "<group>"; };
-		C7AF83422099E5FA00576D04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7AF83452099E5FB00576D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7AF83472099E5FB00576D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7E24BD120AA019A00ECB7B9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +67,37 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C7422E7720B595D2000FE218 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7AF83442099E5FB00576D04 /* LaunchScreen.storyboard */,
+				C7AF833F2099E5F500576D04 /* Kitchen_App.xcdatamodeld */,
+				C7AF83382099E5F500576D04 /* AppDelegate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C7422E7820B595D9000FE218 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7AF833C2099E5F500576D04 /* Main.storyboard */,
+				C7422E7A20B5A79A000FE218 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C7422E7920B595DF000FE218 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C7422E7520B59413000FE218 /* MainBarController.swift */,
+				C7AF833A2099E5F500576D04 /* ViewController.swift */,
+				C7E24BD120AA019A00ECB7B9 /* SecondViewController.swift */,
+				C7422E7C20B5A97D000FE218 /* MealsController.swift */,
+				C7422E7E20B5BEDC000FE218 /* MealsList.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		C7AF832C2099E5F500576D04 = {
 			isa = PBXGroup;
 			children = (
@@ -82,14 +119,10 @@
 		C7AF83372099E5F500576D04 /* Kitchen-App */ = {
 			isa = PBXGroup;
 			children = (
-				C7AF83382099E5F500576D04 /* AppDelegate.swift */,
-				C7AF833A2099E5F500576D04 /* ViewController.swift */,
-				C7E24BD120AA019A00ECB7B9 /* SecondViewController.swift */,
-				C7AF833C2099E5F500576D04 /* Main.storyboard */,
-				C7AF83422099E5FA00576D04 /* Assets.xcassets */,
-				C7AF83442099E5FB00576D04 /* LaunchScreen.storyboard */,
 				C7AF83472099E5FB00576D04 /* Info.plist */,
-				C7AF833F2099E5F500576D04 /* Kitchen_App.xcdatamodeld */,
+				C7422E7920B595DF000FE218 /* Controller */,
+				C7422E7820B595D9000FE218 /* View */,
+				C7422E7720B595D2000FE218 /* Model */,
 			);
 			path = "Kitchen-App";
 			sourceTree = "<group>";
@@ -155,7 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7AF83462099E5FB00576D04 /* LaunchScreen.storyboard in Resources */,
-				C7AF83432099E5FA00576D04 /* Assets.xcassets in Resources */,
+				C7422E7B20B5A79A000FE218 /* Assets.xcassets in Resources */,
 				C7AF833E2099E5F500576D04 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,8 +243,11 @@
 			files = (
 				C7E24BD220AA019A00ECB7B9 /* SecondViewController.swift in Sources */,
 				C7AF833B2099E5F500576D04 /* ViewController.swift in Sources */,
+				C7422E7D20B5A97D000FE218 /* MealsController.swift in Sources */,
+				C7422E7F20B5BEDC000FE218 /* MealsList.swift in Sources */,
 				C7AF83392099E5F500576D04 /* AppDelegate.swift in Sources */,
 				C7AF83412099E5F500576D04 /* Kitchen_App.xcdatamodeld in Sources */,
+				C7422E7620B59413000FE218 /* MainBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

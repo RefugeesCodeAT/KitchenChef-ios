@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if let session = UserDefaults.standard.object(forKey: "session") {
+        if UserDefaults.standard.object(forKey: "session") != nil {
             loginDone()
         } else {
             loginToDo()
