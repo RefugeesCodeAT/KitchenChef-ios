@@ -1,2 +1,2 @@
-# login-register-app
-It's app let you login or register to your website
+# KitchenChef-App
+It's app let you to get all meals list and shopping list like a user .
